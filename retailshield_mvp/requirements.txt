@@ -1,0 +1,30 @@
+# RetailShield MVP - Dependencies
+
+# Core Requirements
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Optional but recommended for better performance
+ultralytics>=8.0.0  # For YOLO detection and pose estimation
+torch>=2.0.0        # PyTorch for deep learning
+torchvision>=0.15.0
+
+# For pose estimation alternatives
+mediapipe>=0.10.0   # Fast CPU-based pose estimation
+
+# For tracking algorithms (optional)
+# filterpy>=1.4.5    # Kalman filter implementations
+# scipy>=1.10.0      # For Hungarian algorithm
+
+# Utilities
+pillow>=10.0.0      # Image processing
+python-dotenv>=1.0.0 # Environment variables
+
+# Testing and Development
+pytest>=7.4.0       # Testing framework
+pytest-cov>=4.1.0   # Test coverage
+black>=23.0.0       # Code formatting
+flake8>=6.0.0       # Linting
+
+# Platform-specific (optional)
+winsound           # Windows sound notifications (built-in)
